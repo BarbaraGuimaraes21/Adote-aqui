@@ -1,0 +1,127 @@
+* { margin: 0;   
+    padding: 0;   
+    box-sizing: border-box;   
+    outline: none;   
+    border: none;   
+    text-decoration: none;
+    font-family: 'Archivo', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(43, 144, 226);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    gap:100px;
+}
+p:hover {
+    color: white;
+}
+h3:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+img{
+    max-width: 65%;
+    max-height: 95%;
+    margin: 5px 0px 5px 100px;
+}
+.abaixotopo{
+    background-image: url(https://cdn.shopify.com/s/files/1/0305/4075/9177/products/papel-de-parede-adesivo-patinhas-marrom-n06194-227381.jpg?v=1643340926);
+    padding: 5px 0px 0px 90px;
+    display:grid;
+    justify-content: center;
+    flex-flow: column;
+    min-height: 60vh;
+}
+hr{
+    color: black;
+    width: 100%;
+    height:3px;
+}
+.flexcontainer{
+    background-color: rgb(43, 144, 226);
+    display: flex;
+    padding: 20px 20px 40px 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.child{
+    border-radius: 10px;
+    width: 30%;
+    height: 400px;
+    padding-bottom: 20px;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+h4{
+    font-size: 15px;
+    text-align: unset;
+    padding: 20px 0 20px 0;
+}
+.formbtn{
+    border: 15px solid #FED000;
+    border-radius: 15px;
+    background-color: #FED000;
+    color: black;
+    padding: 2px;
+    width: 40%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+.formbtn:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.nomeinput{
+    border: 1px solid #FED000;
+    border-radius: 15px;
+    background-color: #FED000;
+    color: black;
+    padding: 2px;
+    width: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+.imganim{
+    padding-right: 60px;
+}
+h5{
+    padding: 25px 20px 25px 40px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.footer{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    align-items: center;
+}
+h6{
+    color: white;
+    font-size:15px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+h6:hover {
+    color:rgb(43, 144, 226);
+}
+.final{
+    padding-left: 200px;
+}
